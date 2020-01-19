@@ -1,0 +1,125 @@
+div {
+    position: absolute;
+    width: 380px;
+    height: 374px;
+    left: 140px;
+    top: 150px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+h1{
+    position: absolute;
+    width: 320px;
+    height: 60px;
+
+    left: 30px;
+    top: 20px;
+
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+.pribitie{
+    position: absolute;
+    width: 83px;
+    height: 15px;
+    left: 30px;
+    top: 100px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+.viezd{position: absolute;
+    width: 83px;
+    height: 15px;
+    left: 200px;
+    top: 100px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+
+}
+input{
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 30px;
+    top: 130.44px;
+
+    background: #FFFFFF;
+    /* Dark 25% */
+
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.in_viezd{
+    left: 200px;
+
+}
+p{
+    position: absolute;
+    width: 103px;
+    height: 24px;
+    left: 45px;
+    top: 130px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+
+
+    /* Dark 75% */
+
+    color: rgba(31, 32, 65, 0.75);
+
+}
+.date{
+    left: 215px;
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+
+
+
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: rgba(31, 32, 65, 0.25) transparent;
+
+}
+
+

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="css/2.css" rel="stylesheet">
+    <title>Форма оплаты</title>
+    <script src="js/1.js"></script>
+
+</head>
+<body>
+
+<header>
+    <h1 class="text">Оплата Билайн</h1>
+</header>
+    <form class="form" action="index.html">
+        <input type="tel" name="phone" placeholder="+7(XXX)XXX-XX-XX"  pattern="[\+]\d{1}[\(]\d{3}[\)]\d{3}[\-]\d{2}[\-]\d{2}" minlength="16" maxlength="16" required /><br />
+        <input type="number" class="sum" name="sum" placeholder="1-1000" min="1" max="1000" required/><br />
+        <button type="submit" class="btn">Перейти к оплате</button>
+    </form>
+
+
+</body>
+</html>

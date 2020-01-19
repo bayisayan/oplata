@@ -1,0 +1,34 @@
+.header{
+    height: 25px;
+    margin: 5px;
+    color: #506a6b;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
+}
+    .first {
+        width: 100%;
+        list-style: none;
+        text-align: center;
+    }
+
+    .first li {
+        display: inline-block;
+        padding: 10px 30px;
+        background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+        border-bottom: 1px solid grey;
+        color: #506a6b;
+        font-size: 20px;
+        box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
+        margin-bottom: 5px;
+        border-radius: 7px;
+    }
+.text {
+
+    text-align: center;
+    color: dodgerblue;
+}
+
+
